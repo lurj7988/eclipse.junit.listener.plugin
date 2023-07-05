@@ -1,0 +1,15 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Plugin
+Bundle-SymbolicName: eclipse.junit.listener.plugin;singleton:=true
+Bundle-Version: 1.0.0.qualifier
+Require-Bundle: org.eclipse.ui,
+ org.eclipse.jdt.junit.core
+Automatic-Module-Name: eclipse.junit.listener.plugin
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Bundle-ClassPath: lib/fastjson-1.2.83.jar,
+ lib/httpclient5-5.2.1.jar,
+ lib/httpcore5-5.2.jar,
+ lib/httpcore5-h2-5.2.jar,
+ lib/slf4j-api-1.7.36.jar,
+ .
